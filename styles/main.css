@@ -20,13 +20,20 @@ body{
 .rodney-img{
     width: 102px;
     height: 102px;
+    margin: 30px auto 11px auto;
+    border-radius: 15px;
 }
 
 .header-title{
     font-size: .875rem;
+    font-weight: 600;
+    color: rgba(78, 81, 80, 1);
 }
 
 .header-subtitle{
+    margin: 4px auto 12px auto;
+    color: rgba(169, 169, 169, 1);
+    font-weight: 600;
     font-size: .625rem;
 }
 
@@ -37,7 +44,15 @@ body{
     justify-content: center;
 }
 
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info{
+    text-align: center;
+    border-radius: 15px;
     width: 78px;
     height: 52px;
     font-size: .75rem;
@@ -45,6 +60,10 @@ body{
     word-spacing: 30px;
     background-color: rgba(229, 229, 229, 1);
     padding: 10px;
+}
+
+.span-info{
+    font-weight: 700;
 }
 
 .photo-container{
@@ -61,6 +80,7 @@ body{
     height: 109px;
     grid-column: 1 / 3;
     grid-row: 1;
+    border-radius: 15px;
 }
 
 .photo2{
@@ -68,6 +88,7 @@ body{
     height: 109px;
     grid-column: 2 / 4;
     grid-row: 1;
+    border-radius: 15px;
 }
 
 .photo3{
@@ -75,6 +96,7 @@ body{
     height: 109px;
     grid-column: 1 / 3;
     grid-row: 2;
+    border-radius: 15px;
 }
 
 .photo4{
@@ -82,6 +104,7 @@ body{
     height: 231px;
     grid-column: 3;
     grid-row: 2 / 4;
+    border-radius: 15px;
 }
 
 .photo5{
@@ -89,6 +112,7 @@ body{
     height: 109px;
     grid-column: 1;
     grid-row: 3;
+    border-radius: 15px;
 }
 
 .photo6{
@@ -96,4 +120,19 @@ body{
     height: 109px;
     grid-column: 2;
     grid-row: 3;
+    border-radius: 15px;
+}
+
+/*FOOTER*/
+.footer{
+    font-size: .875rem;
+    margin: 80px auto 4px auto;
+    color: rgba(169, 169, 169, 1);
+    text-align: center;
+}
+
+.link{
+    color: rgba(169, 169, 169, 1);
+    font-weight: bolder;
+    text-decoration: none;
 }
