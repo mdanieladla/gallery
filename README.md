@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://mdanieladla.github.io/gallery/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/mdanieladla/gallery">
       Solution
     </a>
     <span> | </span>
